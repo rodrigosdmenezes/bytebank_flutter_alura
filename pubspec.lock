@@ -36,9 +36,11 @@ packages:
   bytebank_balance:
     dependency: "direct main"
     description:
-      path: "packages/bytebank_balance"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "912a22eab69ba9f6e815b1795f1ce3260f712316"
+      url: "https://github.com/rodrigosdmenezes/bytebank_flutter_packages_alura.git"
+    source: git
     version: "0.0.1"
   characters:
     dependency: transitive
